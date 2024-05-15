@@ -699,6 +699,12 @@ Blockly.Connection.prototype.getOutputShape = function() {
   if (this.check_.indexOf('Boolean') !== -1) {
     return Blockly.OUTPUT_SHAPE_HEXAGONAL;
   }
+  if (this.check_.indexOf('Array') !== -1) {
+    return Blockly.OUTPUT_SHAPE_SQUARE;
+  }
+  if (this.check_.indexOf('Object') !== -1) {
+    return Blockly.OUTPUT_SHAPE_OBJECT;
+  }
   if (this.check_.indexOf('Number') !== -1) {
     return Blockly.OUTPUT_SHAPE_ROUND;
   }
