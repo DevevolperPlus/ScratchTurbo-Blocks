@@ -298,55 +298,39 @@ Blockly.BlockSvg.INPUT_SHAPE_SQUARE_WIDTH = 12 * Blockly.BlockSvg.GRID_UNIT;
 
 /**
  * SVG path for an empty object input shape.
- * Credits to LilyMakesThings for object shape
+ * Credits to Aness6040 for object shape
  * @const
  */
-Blockly.BlockSvg.INPUT_SHAPE_OBJECT =
+Blockly.BlockSvg.INPUT_SHAPE_OBJECT = 
   'M ' + (4 * Blockly.BlockSvg.GRID_UNIT) + ' 0' +
-  ' h ' + (4 * Blockly.BlockSvg.GRID_UNIT) +
-  ' C ' + (9.75 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (9.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' c ' + (0.25 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (0.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (0.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' C ' + (12 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (4.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (11.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (4.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (4.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' c ' + (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' h ' + (-4 * Blockly.BlockSvg.GRID_UNIT) +
-  ' c ' + (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' C ' + (0.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (4.5 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (4.25 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (4 * Blockly.BlockSvg.GRID_UNIT) +
-  ' C 0 ' +
-      (3.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (0.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) +
-  ' c ' + (1.75 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
-      (1.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) +
-    ' z';
+  ' H ' + (8 * Blockly.BlockSvg.GRID_UNIT) +
+  ' C ' + (9.5 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' + 
+      (9.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' L ' + (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' c ' + (-2.4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (0.2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (4 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' H ' + (4 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' C ' + (2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (7.4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (2.8 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.9 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.6 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' L ' + (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
+  ' C ' + (2.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
+      (2.25 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' + 
+      (4 * Blockly.BlockSvg.GRID_UNIT) + ' 0' + 
+  ' z';
 
 /**
  * Width of empty object input shape.
@@ -1563,21 +1547,15 @@ Blockly.BlockSvg.prototype.renderDrawLeft_ = function(steps) {
       steps.push('l ' + -this.edgeShapeWidth_ + ' ' + -this.edgeShapeWidth_ +
         ' l ' + this.edgeShapeWidth_ + ' ' + -this.edgeShapeWidth_);
     } else if (this.edgeShape_ === Blockly.OUTPUT_SHAPE_OBJECT) {
-      // Draw a half-lemon.
-      steps.push('c ' + (this.edgeShapeWidth_ * -0.4375) + ' 0 ' + (this
-          .edgeShapeWidth_ * -0.4375) + ' ' + (this.edgeShapeWidth_ * -
-      0.875) + ' ' + (this.edgeShapeWidth_ * -0.875) + ' ' + (this
-          .edgeShapeWidth_ * -0.875) + ' c ' + (this.edgeShapeWidth_ * -
-      0.0625) + ' 0 ' + (this.edgeShapeWidth_ * -0.125) + ' ' + (this
-          .edgeShapeWidth_ * -0.0625) + ' ' + (this.edgeShapeWidth_ * -
-      0.125) + ' ' + (this.edgeShapeWidth_ * -0.125) + ' c 0 ' + (this
-          .edgeShapeWidth_ * -0.0625) + ' ' + (this.edgeShapeWidth_ *
-      0.0625) + ' ' + (this.edgeShapeWidth_ * -0.125) + ' ' + (this
-          .edgeShapeWidth_ * 0.125) + ' ' + (this.edgeShapeWidth_ * -
-      0.125) + ' c ' + (this.edgeShapeWidth_ * 0.4375) + ' 0 ' + (this
-          .edgeShapeWidth_ * 0.4375) + ' ' + (this.edgeShapeWidth_ * -
-      0.875) + ' ' + (this.edgeShapeWidth_ * 0.875) + ' ' + (this
-          .edgeShapeWidth_ * -0.875));
+      // Draw a { .
+      steps.push(
+        'c ' + (-0.5 * this.edgeShapeWidth_) + ' 0 ' +
+        (-0.5 * this.edgeShapeWidth_) + ' ' + (-this.edgeShapeWidth_) + ' ' +
+        (-this.edgeShapeWidth_) + ' ' + (-this.edgeShapeWidth_) +
+        ' c ' + (0.5 * this.edgeShapeWidth_) + ' 0 ' +
+        (0.5 * this.edgeShapeWidth_) + ' ' + (-this.edgeShapeWidth_) + ' ' +
+        this.edgeShapeWidth_ + ' ' + (-this.edgeShapeWidth_)
+      );                            
     }
   }
   steps.push('z');
@@ -1601,22 +1579,16 @@ Blockly.BlockSvg.prototype.drawEdgeShapeRight_ = function(steps) {
       steps.push('l ' + this.edgeShapeWidth_ + ' ' + this.edgeShapeWidth_ +
           ' l ' + -this.edgeShapeWidth_ + ' ' + this.edgeShapeWidth_);
     } else if (this.edgeShape_ === Blockly.OUTPUT_SHAPE_OBJECT) {
-      // Draw an half-lemon.
-      steps.push('c ' + (this.edgeShapeWidth_ * 0.4375) + ' 0 ' + (this
-          .edgeShapeWidth_ * 0.4375) + ' ' + (this.edgeShapeWidth_ *
-      0.875) + ' ' + (this.edgeShapeWidth_ * 0.875) + ' ' + (this
-          .edgeShapeWidth_ * 0.875) + ' c ' + (this.edgeShapeWidth_ *
-      0.0625) + ' 0 ' + (this.edgeShapeWidth_ * 0.125) + ' ' + (this
-          .edgeShapeWidth_ * 0.0625) + ' ' + (this.edgeShapeWidth_ *
-      0.125) + ' ' + (this.edgeShapeWidth_ * 0.125) + ' c 0 ' + (this
-          .edgeShapeWidth_ * 0.0625) + ' ' + (this.edgeShapeWidth_ * -
-      0.0625) + ' ' + (this.edgeShapeWidth_ * 0.125) + ' ' + (this
-          .edgeShapeWidth_ * -0.125) + ' ' + (this.edgeShapeWidth_ *
-      0.125) + ' c ' + (this.edgeShapeWidth_ * -0.4375) + ' 0 ' + (
-        this.edgeShapeWidth_ * -0.4375) + ' ' + (this.edgeShapeWidth_ *
-      0.875) + ' ' + (this.edgeShapeWidth_ * -0.875) + ' ' + (this
-          .edgeShapeWidth_ * 0.875));
-    }
+      // Draw a }.
+      steps.push(
+        'c ' + (0.5 * this.edgeShapeWidth_) + ' 0 ' +
+        (0.5 * this.edgeShapeWidth_) + ' ' + this.edgeShapeWidth_ + ' ' +
+        this.edgeShapeWidth_ + ' ' + this.edgeShapeWidth_ +
+        ' c ' + (-0.5 * this.edgeShapeWidth_) + ' 0 ' +
+        (-0.5 * this.edgeShapeWidth_) + ' ' + this.edgeShapeWidth_ + ' ' +
+        (-this.edgeShapeWidth_) + ' ' + this.edgeShapeWidth_
+      );              
+    }     
   }
 };
 
