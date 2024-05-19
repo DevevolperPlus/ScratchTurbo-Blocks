@@ -301,36 +301,22 @@ Blockly.BlockSvg.INPUT_SHAPE_SQUARE_WIDTH = 12 * Blockly.BlockSvg.GRID_UNIT;
  * Credits to Aness6040 for object shape
  * @const
  */
-Blockly.BlockSvg.INPUT_SHAPE_OBJECT = 
-  'M ' + (4 * Blockly.BlockSvg.GRID_UNIT) + ' 0' +
-  ' H ' + (8 * Blockly.BlockSvg.GRID_UNIT) +
-  ' C ' + (9.5 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' + 
-      (9.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' L ' + (11.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' c ' + (-2.4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (0.2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (-1.75 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (-3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (4 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' H ' + (4 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' C ' + (2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (7.4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (2.8 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.9 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.6 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' L ' + (0.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + 
-  ' C ' + (2.25 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (3.5 * Blockly.BlockSvg.GRID_UNIT) + ' ' + 
-      (2.25 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' + 
-      (4 * Blockly.BlockSvg.GRID_UNIT) + ' 0' + 
-  ' z';
+Blockly.BlockSvg.INPUT_SHAPE_OBJECT =
+  'M ' + (12 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (4 * Blockly.BlockSvg.GRID_UNIT) +
+  ' C ' + (9 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (5 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (10 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (8 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (8 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (8 * Blockly.BlockSvg.GRID_UNIT) +
+  ' L ' + (4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (8 * Blockly.BlockSvg.GRID_UNIT) +
+  ' c ' + (-2 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
+          (-2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (-4 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (-4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (-4 * Blockly.BlockSvg.GRID_UNIT) +
+  ' c ' + (2 * Blockly.BlockSvg.GRID_UNIT) + ' 0 ' +
+          (2 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (-4 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (4 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (-4 * Blockly.BlockSvg.GRID_UNIT) +
+  ' L ' + (8 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (0 * Blockly.BlockSvg.GRID_UNIT) +
+  ' C ' + (10 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (0 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (10 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (4 * Blockly.BlockSvg.GRID_UNIT) + ' ' +
+          (12 * Blockly.BlockSvg.GRID_UNIT) + ' ' + (4 * Blockly.BlockSvg.GRID_UNIT);
 
 /**
  * Width of empty object input shape.
