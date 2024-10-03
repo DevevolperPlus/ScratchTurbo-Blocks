@@ -1,4 +1,4 @@
-# PenguinMod/scratch-blocks
+# ScratchTurbo/scratch-blocks
 
 <!-- ## Playgrounds
 
